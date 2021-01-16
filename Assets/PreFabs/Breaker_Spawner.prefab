@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4528518394941870980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4528518394941870981}
+  - component: {fileID: 4528518394941871002}
+  - component: {fileID: -6272822630150171361}
+  - component: {fileID: -8410718073975093631}
+  - component: {fileID: -7279461541083419170}
+  - component: {fileID: -1054170534517456622}
+  m_Layer: 0
+  m_Name: Breaker_Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4528518394941870981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4528518394941870980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4528518394941871002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4528518394941870980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 018ba1412443b19479f4b3ae8edd1ecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LR_breaker_prefab: {fileID: 5675723376797377560, guid: fc1dc73161310c540a8b96d44a3b95cc,
+    type: 3}
+  SR_breaker_prefab: {fileID: 5383563811691335843, guid: 0db32ff779ee9b14ebd2020b2e7447a3,
+    type: 3}
+  the_player: {fileID: 0}
+--- !u!114 &-6272822630150171361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4528518394941870980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b235212d6d525624082e3af407256b25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPlayer: {fileID: 0}
+  LR_breaker_prefab: {fileID: 5675723376797377560, guid: 0a1c9bfd06e110143ac7f961ab350bac,
+    type: 3}
+  SR_breaker_prefab: {fileID: 5383563811691335843, guid: bff635e6759a5af4c906faff92c74b46,
+    type: 3}
+  the_enemy: {fileID: 0}
+--- !u!114 &-8410718073975093631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4528518394941870980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a98b38db079a4c4ea1ec65b311a0ac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPlayer: {fileID: 0}
+  LR_breaker_prefab: {fileID: 5675723376797377560, guid: 5b4a8b10d66f6c147b27273dfc7c6fe8,
+    type: 3}
+  SR_breaker_prefab: {fileID: 5383563811691335843, guid: 2370de4e34bf88444a9688115dcc0e74,
+    type: 3}
+  the_enemy: {fileID: 0}
+--- !u!114 &-7279461541083419170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4528518394941870980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b582a0dae2884d54fb95ba05aefd17ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPlayer: {fileID: 0}
+  LR_breaker_prefab: {fileID: 5675723376797377560, guid: 7e2f6b05bb83ce74aa742f05f8e37f61,
+    type: 3}
+  SR_breaker_prefab: {fileID: 5383563811691335843, guid: 359934ad1f13f4a4b9af577067d23615,
+    type: 3}
+  the_enemy: {fileID: 0}
+--- !u!114 &-1054170534517456622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4528518394941870980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06e5c66e94d4f84d957cdf78354d76a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPlayer: {fileID: 0}
+  LR_breaker_prefab: {fileID: 5675723376797377560, guid: 6d72aac29a05e874b886ab1e5bb91489,
+    type: 3}
+  SR_breaker_prefab: {fileID: 5383563811691335843, guid: c9c9057561f8cf448a5b30a8366a737b,
+    type: 3}
+  the_enemy: {fileID: 0}

@@ -1,0 +1,13 @@
+The progress of the game so far was to develop the player and the controller for the player with original artwork.
+The basic core mechanic of the player is to move around using the directional key strokes of: UP DOWN LEFT RIGHT.
+As stated in my game proposal, the game will be similar in gameplay to that of Bomberman. The control to set the 'Breakers' up are:
+'A' for long range
+'D' for short range
+
+The AI implementation of the game will mostly be put towards to the NPCs. Their basic function will to search and destroy
+the target for as long as there is time on the clock.
+A lot have not been implemented as of yet since i wanted to take much care of the details for the playable character and the 
+basic core mechanics of the character and the nuances of the breakers' attributes of being set for a limited amount of time.
+
+There are obstacles in the game environment for the player to collide with, as well it is being used fopr testing purposes of how the action 
+of the actual explosion should fit inside a dynamically designed environment.
